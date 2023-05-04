@@ -1,0 +1,11 @@
+<div class="class">
+    <h2>{{contador}}</h2>
+    <div class="container-buttons">
+        <button (click)="decreaseNumber()">Clique para diminuir</button>
+        <button (click)="increaseNumber()">Clique para aumentar</button>
+    </div>
+    <p *ngIf="contador < 10; else avisoTooHigh"></p>
+    <ng-template #avisoTooHigh>
+        <p>Muito alto!</p>
+    </ng-template>
+</div>

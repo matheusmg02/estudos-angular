@@ -1,0 +1,11 @@
+.title-stats {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.container-player-stats {
+    display: flex;
+    flex-direction: column;
+    place-self: start;
+}
